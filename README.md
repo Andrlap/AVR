@@ -1,3 +1,3 @@
 # AVR
 AVR C, С++
-Atmel Studio, ATTINY2313, USBISP
+Atmel Studio, ATTINY2313, USBISP, PLS2303
