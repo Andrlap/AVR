@@ -1,3 +1,4 @@
 # AVR ??????
 AVR C, C++
 Atmel Studio, ATTINY2313, USBISP, PLS2303
+NRF24L01, SE8R01

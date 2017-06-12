@@ -1,8 +1,5 @@
-/*
- * USB_NRF.c
- *
+/* USB_NRF.c
  * Created: 08.10.2013 20:02:19
- *  Author: 1
  */ 
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,11 +9,7 @@
 #include "xitoa.h"
 #include "pin.h"
 #include "spi.h"
-//#include "NRF24L01.H"
-//#include "RF24REG.H"
 #include "RF24.h"
-
-
 
 ISR(USART_RX_vect){
 	switch (buff.tp) {
@@ -34,10 +27,6 @@ ISR(USART_RX_vect){
 			buff.data[buff.len++] = c;
 	} 
 }
-
-
-
-
 
 int main(void)
 {

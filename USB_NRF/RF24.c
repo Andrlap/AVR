@@ -292,12 +292,13 @@ void scan08_graf(void){
 	const uint8_t nch = 255;
 	NRF24L01_MODE_SET_RX;
 	rf24_CE_lo;
-	uint8_t base_lavel = 0xff;
+	uint8_t base_lavel = 0xff, min_lv;
 	while(1)
 	{
 
-		_delay_ms(200);
+		_delay_ms(500);
 		usart_send_str("\n");
+		min_lv = 0xff;
 		for(uint8_t i=0 ; i<nch ; i++)
 		{
 			NRF24L01_RF_CH_W(i);
@@ -310,12 +311,14 @@ void scan08_graf(void){
 			rf24_CE_lo;
 			lv = NRF24L01_CD;
 
-			if (lv > base_lavel)
-				lv -= base_lavel - 32;
-			else {
-				base_lavel = lv - 3;
+			if (lv > base_lavel) {
+				lv = lv - base_lavel + 32;
+			} else {
+				if (lv < min_lv)  min_lv = lv;
 			    lv = 32;
 			}
+
+			base_lavel = (uint8_t) (((uint16_t)(base_lavel * 3) + (uint16_t)min_lv ) / 4);
 
 			usart_send_char(lv);
 
