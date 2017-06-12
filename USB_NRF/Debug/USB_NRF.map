@@ -1,0 +1,629 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+                              C:/Progs/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.0.79/gcc/dev/attiny2313a/avr25/tiny-stack/crtattiny2313a.o (exit)
+c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_copy_data.o)
+                              pin.o (__do_copy_data)
+c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+                              pin.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+channel             0x4               USB_NRF.o
+rf24_no             0x1               pin.o
+st                  0x2               USB_NRF.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:/Progs/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.0.79/gcc/dev/attiny2313a/avr25/tiny-stack/crtattiny2313a.o
+ .bss           0x00000000        0x0 C:/Progs/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.0.79/gcc/dev/attiny2313a/avr25/tiny-stack/crtattiny2313a.o
+ .text          0x00000000        0x0 pin.o
+ .data          0x00000000        0x0 pin.o
+ .bss           0x00000000        0x0 pin.o
+ .text.rf24_cmd_status
+                0x00000000       0x1c pin.o
+ .text.r24_wr_rd_bytes
+                0x00000000       0x30 pin.o
+ .text.r24_wrd_bytes
+                0x00000000       0x26 pin.o
+ .text.rf24_rd_bytes
+                0x00000000       0x2e pin.o
+ .text.rf24_wr_bytes
+                0x00000000       0x2e pin.o
+ .data.ADDRESS5
+                0x00000000        0x5 pin.o
+ .data.ADDRESS4
+                0x00000000        0x5 pin.o
+ .data.ADDRESS3
+                0x00000000        0x5 pin.o
+ .data.ADDRESS2
+                0x00000000        0x5 pin.o
+ .data.ADDRESS1
+                0x00000000        0x5 pin.o
+ .data.ADDRESS0
+                0x00000000        0x5 pin.o
+ .text          0x00000000        0x0 se8r01.o
+ .data          0x00000000        0x0 se8r01.o
+ .bss           0x00000000        0x0 se8r01.o
+ .text.SE8R01_switch_bank
+                0x00000000       0x18 se8r01.o
+ .text.SE8R01_powerup
+                0x00000000       0x1e se8r01.o
+ .text.SE8R01_Calibration
+                0x00000000      0x150 se8r01.o
+ .text.SE8R01_Analog_Init
+                0x00000000      0x12a se8r01.o
+ .text.SE8R01_Init
+                0x00000000       0xa6 se8r01.o
+ .debug_info    0x00000000      0x9de se8r01.o
+ .debug_abbrev  0x00000000      0x1d2 se8r01.o
+ .debug_loc     0x00000000      0x1a3 se8r01.o
+ .debug_aranges
+                0x00000000       0x40 se8r01.o
+ .debug_ranges  0x00000000       0x30 se8r01.o
+ .debug_line    0x00000000      0x452 se8r01.o
+ .debug_str     0x00000000      0x28a se8r01.o
+ .comment       0x00000000       0x31 se8r01.o
+ .debug_frame   0x00000000       0xb8 se8r01.o
+ .text          0x00000000        0x0 spi_t2313.o
+ .data          0x00000000        0x0 spi_t2313.o
+ .bss           0x00000000        0x0 spi_t2313.o
+ .text.spi_rd_bytes
+                0x00000000       0x30 spi_t2313.o
+ .text.spi_wr_rd_bytes
+                0x00000000       0x38 spi_t2313.o
+ .text.spi_wr_bytes
+                0x00000000       0x30 spi_t2313.o
+ .text          0x00000000        0x0 usart.o
+ .data          0x00000000        0x0 usart.o
+ .bss           0x00000000        0x0 usart.o
+ .text.usart_send_buff
+                0x00000000       0x24 usart.o
+ .text          0x00000000        0x0 USB_NRF.o
+ .data          0x00000000        0x0 USB_NRF.o
+ .bss           0x00000000        0x0 USB_NRF.o
+ .text.nrf_init
+                0x00000000       0x46 USB_NRF.o
+ .text.test_io  0x00000000       0x78 USB_NRF.o
+ .text.test_register
+                0x00000000       0x6c USB_NRF.o
+ .text.test_status
+                0x00000000      0x15c USB_NRF.o
+ .text.test_payload
+                0x00000000       0x50 USB_NRF.o
+ .text.scanChannels
+                0x00000000       0xa0 USB_NRF.o
+ .text.displChannels
+                0x00000000       0x5c USB_NRF.o
+ .text.scan     0x00000000       0x54 USB_NRF.o
+ .text.scan08_tri
+                0x00000000       0x74 USB_NRF.o
+ .progmem.data.__c.2269
+                0x00000000        0x9 USB_NRF.o
+ .progmem.data.__c.2267
+                0x00000000        0xa USB_NRF.o
+ .progmem.data.__c.2265
+                0x00000000        0x8 USB_NRF.o
+ .progmem.data.__c.2263
+                0x00000000        0x8 USB_NRF.o
+ .progmem.data.__c.2261
+                0x00000000        0x9 USB_NRF.o
+ .progmem.data.__c.2259
+                0x00000000        0xa USB_NRF.o
+ .progmem.data.__c.2257
+                0x00000000        0xc USB_NRF.o
+ .progmem.data.__c.2255
+                0x00000000        0x7 USB_NRF.o
+ .progmem.data.__c.2253
+                0x00000000        0xb USB_NRF.o
+ COMMON         0x00000000        0x6 USB_NRF.o
+ .text          0x00000000      0x21c xitoa.o
+ .data          0x00000000        0x0 xitoa.o
+ .text          0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/Progs/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.0.79/gcc/dev/attiny2313a/avr25/tiny-stack/crtattiny2313a.o
+LOAD pin.o
+LOAD se8r01.o
+LOAD spi_t2313.o
+LOAD usart.o
+LOAD USB_NRF.o
+LOAD xitoa.o
+START GROUP
+LOAD c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack\libm.a
+END GROUP
+START GROUP
+LOAD c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a
+LOAD c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack\libm.a
+LOAD c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack\libc.a
+LOAD C:/Progs/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.0.79/gcc/dev/attiny2313a/avr25/tiny-stack\libattiny2313a.a
+END GROUP
+                0x00002000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x2000
+                0x0000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                0x00000400                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x2c6
+ *(.vectors)
+ .vectors       0x00000000       0x2a C:/Progs/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.0.79/gcc/dev/attiny2313a/avr25/tiny-stack/crtattiny2313a.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000002a                . = ALIGN (0x2)
+                0x0000002a                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000002a        0x0 linker stubs
+ *(.trampolines*)
+                0x0000002a                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x0000002a                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000002a                __ctors_start = .
+ *(.ctors)
+                0x0000002a                __ctors_end = .
+                0x0000002a                __dtors_start = .
+ *(.dtors)
+                0x0000002a                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000002a        0x0 C:/Progs/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.0.79/gcc/dev/attiny2313a/avr25/tiny-stack/crtattiny2313a.o
+                0x0000002a                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000002a        0x8 C:/Progs/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.0.79/gcc/dev/attiny2313a/avr25/tiny-stack/crtattiny2313a.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000032       0x16 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_copy_data.o)
+                0x00000032                __do_copy_data
+ .init4         0x00000048       0x10 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_clear_bss.o)
+                0x00000048                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000058        0x4 C:/Progs/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.0.79/gcc/dev/attiny2313a/avr25/tiny-stack/crtattiny2313a.o
+ *(.init9)
+ *(.text)
+ .text          0x0000005c        0x2 C:/Progs/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.0.79/gcc/dev/attiny2313a/avr25/tiny-stack/crtattiny2313a.o
+                0x0000005c                __vector_1
+                0x0000005c                __vector_12
+                0x0000005c                __bad_interrupt
+                0x0000005c                __vector_6
+                0x0000005c                __vector_3
+                0x0000005c                __vector_11
+                0x0000005c                __vector_13
+                0x0000005c                __vector_17
+                0x0000005c                __vector_19
+                0x0000005c                __vector_5
+                0x0000005c                __vector_4
+                0x0000005c                __vector_9
+                0x0000005c                __vector_2
+                0x0000005c                __vector_15
+                0x0000005c                __vector_8
+                0x0000005c                __vector_14
+                0x0000005c                __vector_10
+                0x0000005c                __vector_16
+                0x0000005c                __vector_18
+                0x0000005c                __vector_20
+                0x0000005e                . = ALIGN (0x2)
+ *(.text.*)
+ .text.rf24_init
+                0x0000005e        0xe pin.o
+                0x0000005e                rf24_init
+ .text.rf24_set_pin
+                0x0000006c       0x3c pin.o
+                0x0000006c                rf24_set_pin
+ .text.rf24_wr2_rd
+                0x000000a8       0x26 pin.o
+                0x000000a8                rf24_wr2_rd
+ .text.spi_wr_rd_byte
+                0x000000ce       0x14 spi_t2313.o
+                0x000000ce                spi_wr_rd_byte
+ .text.usart_send_str
+                0x000000e2       0x18 usart.o
+                0x000000e2                usart_send_str
+ .text.usart_send_char
+                0x000000fa        0x8 usart.o
+                0x000000fa                usart_send_char
+ .text.__vector_7
+                0x00000102       0x92 USB_NRF.o
+                0x00000102                __vector_7
+ .text.scan08   0x00000194       0xf6 USB_NRF.o
+                0x00000194                scan08
+ .text.main     0x0000028a       0x38 USB_NRF.o
+                0x0000028a                main
+                0x000002c2                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000002c2        0x0 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+                0x000002c2                _exit
+                0x000002c2                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000002c2        0x4 c:/progs/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr25/tiny-stack\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000002c6                _etext = .
+
+.data           0x00800060       0x6c load address 0x000002c6
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.rf24_arr
+                0x00800060        0x8 pin.o
+                0x00800060                rf24_arr
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800068       0x63 USB_NRF.o
+ *(.gnu.linkonce.d*)
+                0x008000cc                . = ALIGN (0x2)
+ *fill*         0x008000cb        0x1 
+                0x008000cc                _edata = .
+                0x008000cc                PROVIDE (__data_end, .)
+
+.bss            0x008000cc       0x17
+                0x008000cc                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008000cc        0x2 xitoa.o
+                0x008000cc                xfunc_out
+ *(.bss*)
+ .bss.buff      0x008000ce       0x14 USB_NRF.o
+ *(COMMON)
+ COMMON         0x008000e2        0x1 pin.o
+                0x008000e2                rf24_no
+                0x008000e3                PROVIDE (__bss_end, .)
+                0x000002c6                __data_load_start = LOADADDR (.data)
+                0x00000332                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008000e3        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x008000e3                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 pin.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 spi_t2313.o
+ .comment       0x00000030       0x31 usart.o
+ .comment       0x00000030       0x31 USB_NRF.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 C:/Progs/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.0.79/gcc/dev/attiny2313a/avr25/tiny-stack/crtattiny2313a.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x158
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 pin.o
+ .debug_aranges
+                0x00000058       0x38 spi_t2313.o
+ .debug_aranges
+                0x00000090       0x30 usart.o
+ .debug_aranges
+                0x000000c0       0x78 USB_NRF.o
+ .debug_aranges
+                0x00000138       0x20 xitoa.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x1bc7
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x5af pin.o
+ .debug_info    0x000005af      0x18a spi_t2313.o
+ .debug_info    0x00000739      0x11f usart.o
+ .debug_info    0x00000858     0x131e USB_NRF.o
+ .debug_info    0x00001b76       0x51 xitoa.o
+
+.debug_abbrev   0x00000000      0x60a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1ae pin.o
+ .debug_abbrev  0x000001ae       0xb2 spi_t2313.o
+ .debug_abbrev  0x00000260       0xb9 usart.o
+ .debug_abbrev  0x00000319      0x2dd USB_NRF.o
+ .debug_abbrev  0x000005f6       0x14 xitoa.o
+
+.debug_line     0x00000000     0x1250
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1ee pin.o
+ .debug_line    0x000001ee      0x194 spi_t2313.o
+ .debug_line    0x00000382      0x101 usart.o
+ .debug_line    0x00000483      0x750 USB_NRF.o
+ .debug_line    0x00000bd3      0x67d xitoa.o
+
+.debug_frame    0x00000000      0x35c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xfc pin.o
+ .debug_frame   0x000000fc       0x54 spi_t2313.o
+ .debug_frame   0x00000150       0x44 usart.o
+ .debug_frame   0x00000194      0x1c8 USB_NRF.o
+
+.debug_str      0x00000000      0x3d7
+ *(.debug_str)
+ .debug_str     0x00000000      0x236 pin.o
+                                0x270 (size before relaxing)
+ .debug_str     0x00000236       0x11 spi_t2313.o
+                                0x19b (size before relaxing)
+ .debug_str     0x00000247       0x3c usart.o
+                                0x183 (size before relaxing)
+ .debug_str     0x00000283      0x154 USB_NRF.o
+                                0x318 (size before relaxing)
+
+.debug_loc      0x00000000      0xd3a
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x4ba pin.o
+ .debug_loc     0x000004ba      0x14c spi_t2313.o
+ .debug_loc     0x00000606       0x87 usart.o
+ .debug_loc     0x0000068d      0x6ad USB_NRF.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x128
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x48 pin.o
+ .debug_ranges  0x00000048       0x28 spi_t2313.o
+ .debug_ranges  0x00000070       0x20 usart.o
+ .debug_ranges  0x00000090       0x98 USB_NRF.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(USB_NRF.elf elf32-avr)
+LOAD linker stubs

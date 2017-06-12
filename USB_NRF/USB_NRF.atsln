@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "USB_NRF", "USB_NRF.cproj", "{5FD911E3-A1A5-4772-96E8-FDA2B99FDFB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FD911E3-A1A5-4772-96E8-FDA2B99FDFB9}.Debug|AVR.ActiveCfg = Debug|AVR
+		{5FD911E3-A1A5-4772-96E8-FDA2B99FDFB9}.Debug|AVR.Build.0 = Debug|AVR
+		{5FD911E3-A1A5-4772-96E8-FDA2B99FDFB9}.Release|AVR.ActiveCfg = Release|AVR
+		{5FD911E3-A1A5-4772-96E8-FDA2B99FDFB9}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
